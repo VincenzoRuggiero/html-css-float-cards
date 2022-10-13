@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 main {
   width: 80%;
   margin: 2rem auto;
@@ -20,14 +25,15 @@ img {
 }
 
 .title {
-  color: #e53371;
+  color: LightGray;
+  text-shadow: 4px 2px 15px rgba(150, 150, 150, 1);
   font-family: "Fredoka One", sans-serif;
 }
 
 .team-description {
   padding: 20px 0;
   font-family: "Courier New", Courier, monospace;
-  font-size: small;
+  font-size: 1rem;
 }
 
 .box {
@@ -44,6 +50,7 @@ img {
   float: left;
 }
 
+.team-description,
 .name,
 .role {
   color: #fff;
